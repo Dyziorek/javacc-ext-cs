@@ -181,7 +181,7 @@ public final class Main {
         if (Options.getBuildParser()) {
           new ParseGen().start();
         }
-        if (Options.getBuildTokenManager()) {
+        if (Options.getBuildParser()) {
           new LexGen().start();
         }
 
@@ -191,7 +191,7 @@ public final class Main {
         if (Options.getBuildParser()) {
           new ParseGenCS().start();
         }
-        if (Options.getBuildTokenManager()) {
+        if (Options.getBuildParser()) {
           new LexGenCS().start();
         }
 
@@ -201,7 +201,7 @@ public final class Main {
         if (Options.getBuildParser()) {
           new ParseGenCPP().start();
         }
-        if (Options.getBuildTokenManager()) {
+        if (Options.getBuildParser()) {
           new LexGenCPP().start();
         }
 
