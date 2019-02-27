@@ -10,4 +10,7 @@ This project has some extensions from original project:
 2. Added support for emitting both custom C# and Java code in the single grammar file. This is implemented as custom comment entries is the style /**java */ and /**cs  */. It allows to emit custom code to both language output from the same grammar file. 
 3. Added additional flag to emit parasoft suppress comments (to force ignore parasoft warnings)
  
-Javacc homepage and tutorials is at https://javacc.java.net/
+Javacc homepage and tutorials is at https://github.com/javacc/javacc but the code is based on version 6.0 when code was based from original source code from https://javacc.java.net/ 
+
+The best documentation with tips and tricks for javacc are from https://www.engr.mun.ca/~theo/JavaCC-FAQ/javacc-screen-faq.pdf
+
